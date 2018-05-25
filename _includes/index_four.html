@@ -1,0 +1,38 @@
+<section class="section-clients section bg-dots">
+  <div class="container">
+    <h2 class="section-title">Que dicen nuestros Clientes</h2>
+
+    <div class="client-carousel owl-carousel">
+  {% for item in site.data.index_four %}
+      <div class="client-carousel-item">
+        <img alt="" class="client-img" src="{{ item.image }}">
+        <div class="client-box">
+          <img alt="" class="image-quote" src="assets/images/image-icons/icon-quote.png">
+          <div class="client-title">
+            <span class="client-name">{{ item.client-name }}</span>
+          </div>
+          <p class="client-description">{{ item.opinion }}</p>
+        </div>
+      </div>
+      {% endfor %}
+      {{ item.image }}
+    </div>
+    <div class="partner-carousel owl-carousel">
+      <div class="partner-carousel-item">
+        <img alt="" src="assets/images/partners/1.png">
+      </div>
+      <div class="partner-carousel-item">
+        <img alt="" src="assets/images/partners/2.png">
+      </div>
+      <div class="partner-carousel-item">
+        <img alt="" src="assets/images/partners/3.png">
+      </div>
+      <div class="partner-carousel-item">
+        <img alt="" src="assets/images/partners/4.png">
+      </div>
+      <div class="partner-carousel-item">
+        <img alt="" src="assets/images/partners/5.png">
+      </div>
+    </div>
+  </div>
+</section>

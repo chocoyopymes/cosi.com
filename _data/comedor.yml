@@ -1,0 +1,11 @@
+- name: MESA DE COMEDOR
+  slug: mesa-de-comedor
+  image: /assets/images/categories/cm3425t.jpg
+
+- name: SILLA DE COMEDOR
+  slug: silla-de-comedor
+  image: /assets/images/categories/107143.jpg
+
+- name: BUFETERA
+  slug: bufetera
+  image: /assets/images/categories/72458.jpg

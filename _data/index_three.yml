@@ -1,0 +1,15 @@
+- name: SALA
+  slug: sala
+  image: /assets/images/home/index_three_sala.jpg
+
+- name: Comedor
+  slug: comedor
+  image: /assets/images/home/index_three_comedor.jpg
+
+- name: Accesorios
+  slug: accesorios
+  image: /assets/images/home/index_three_accesorios.jpg
+
+- name: Terraza
+  slug: terraza
+  image: /assets/images/home/index_three_terraza.jpg

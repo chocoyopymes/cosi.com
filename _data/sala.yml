@@ -1,0 +1,39 @@
+- name: SOFA
+  slug: sofa
+  image: /assets/images/categories/505521.jpg
+
+- name: LOVE SEAT
+  slug: loveseat
+  image: /assets/images/categories/505205.jpg
+
+- name: SILLAS ACENTO
+  slug: sillas-acento
+  image: assets/images/products/FPF18-0149.jpg
+
+- name: SECCIONAL
+  slug: seccional
+  image: /assets/images/categories/sm1111.jpg
+
+- name: PUFF Y OTTOMAN
+  slug: puff-y-ottoman
+  image: assets/images/products/AspenOversizedOttoman.jpg
+
+- name: BANCA
+  slug: banca
+  image: assets/images/products/BancaEmpressGris.jpg
+
+- name: CONSOLA
+  slug: consola
+  image: assets/images/products/CONSOLAHOME.jpg
+
+- name: MESA DE CENTRO
+  slug: mesa-de-centro
+  image: assets/images/products/MP120-0078_RoomSho.jpg
+
+- name: MESA LATERAL
+  slug: mesa-lateral
+  image: assets/images/products/sidetable-parker.jpg
+
+- name: MUEBLE PARA TV
+  slug: mueble-para-tv
+  image: assets/images/products/mueble-tv-herald.jpg

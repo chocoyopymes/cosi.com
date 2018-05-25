@@ -1,0 +1,27 @@
+- name: CAMA
+  slug: cama
+  image: /assets/images/categories/30057.jpg
+
+- name: RESPALDARES
+  slug: respaldares
+  image: /assets/images/categories/foa-cm7880gy-hb-t.jpg
+
+- name: MESA DE NOCHE
+  slug: mesa-de-noche
+  image: /assets/images/categories/204302.jpg
+
+- name: COMODA Y GAVETERO
+  slug: comoda
+  image: /assets/images/categories/b259-03.jpg
+
+- name: CAMAS PARA NIÑOS
+  slug: camas-para-ninos
+  image: /assets/images/categories/46934.jpg
+
+- name: CAMAROTES
+  slug: camarotes
+  image: https://i.pinimg.com/736x/02/c3/46/02c3469870b7bf9b33b30f31b1cc0852--bunk-beds-with-drawers-bunk-beds-with-storage.jpg
+
+- name: COLCHONES
+  slug: colchones
+  image: http://colchoneslaspiedras.com/img/icosinicio/colchones_gel.jpg

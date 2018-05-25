@@ -1,0 +1,24 @@
+- url:
+  word: 'Cocinas'
+  image: assets/images/slider/slide1.png
+  title1: 'Edut'
+  title2: 'Perspiciatis'
+  title3: 'Omnis iste'
+- url:
+  word: 'Cocinas'
+  image: assets/images/slider/slide4.png
+  title1: 'Edut'
+  title2: 'Perspiciatis'
+  title3: 'Omnis iste'
+- url:
+  word: 'Cocinas'
+  image: assets/images/slider/slide2.png
+  title1: 'Edut'
+  title2: 'Perspiciatis'
+  title3: 'Omnis iste'
+- url:
+  word: 'Cocinas'
+  image: assets/images/slider/slide3.png
+  title1: 'Edut'
+  title2: 'Perspiciatis'
+  title3: 'Omnis iste'

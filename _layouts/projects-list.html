@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="content">
+  <div class="projects">
+
+    <div class="grid-items js-isotope js-grid-items">
+      {% for post in site.posts %}
+      {% if post.categories contains page.slug %}
+      <div class="grid-item building js-isotope-item js-grid-item">
+        <div class="project-item">
+          <img alt="" class="img-responsive" src="{{ post.main-image }}">
+          <a href="{{ post.permalink }}" class="project-hover-2">
+            <i class="icon-plus"></i>
+            <div class="project-hover-content">
+              <h3 class="project-title">{{ post.title-line1 }}<br>{{ post.title-line2 }}<br>{{ post.title-line3 }}</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

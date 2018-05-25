@@ -1,0 +1,15 @@
+- name: ESCRITORIO
+  slug: escritorio
+  image: https://ae01.alicdn.com/kf/HTB19LdqLpXXXXaeXpXXq6xXFXXXj/Hot-Specials-combination-desk-bookcase-simple-desktop-computer-table-student-home-fashion-writing-table.jpg
+
+- name: SOFA CAMA
+  slug: sofa-cama
+  image: assets/images/products/SeccionalBaylor-503929.jpeg
+
+- name: LIBRERO
+  slug: librero
+  image: assets/images/products/LibreroParker-P138-0128.jpg
+
+- name: SILLA
+  slug: silla
+  image: http://furnitureheart.com/495-large_default/eckard-desk-chair.jpg

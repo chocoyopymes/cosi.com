@@ -1,0 +1,19 @@
+- name: SET
+  slug: set-terraza
+  image: assets/images/products/SetAurora-EI-2560-slv-nav.jpg
+
+- name: SILLA
+  slug: silla-terraza
+  image: https://cdn.nostraforma.com/cache/1400x1400/cache_f4c7769aba89d6022b8456f5fb42e852.jpg
+
+- name: COMEDOR
+  slug: comedor-terraza
+  image: assets/images/products/ComedordeTerrazaSojourn-EEI-1952-CHC-BEI-SET_4.jpg
+
+- name: CHAISE LOUNGE
+  slug: chaise-lounge
+  image: assets/images/products/ChaiseLoungeAlfie-EEI-1862-chc-bei-.jpg
+
+- name: COLUMPIOS
+  slug: columpios-terraza
+  image: assets/images/products/SwingFinley-EEI-739-set.jpg

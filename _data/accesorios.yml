@@ -1,0 +1,23 @@
+- name: ALFOMBRAS
+  slug: alfombras
+  image: https://sta3.muebleslluesma.com/9700-71482-large_default/alfombra-seda-sin-confeccion-kp-alfombras.jpg
+
+- name: ESPEJOS
+  slug: espejos
+  image: assets/images/products/es4.jpg
+
+- name: CUADROS
+  slug: cuadros
+  image: https://cotos-ever.net/blog/wp-content/uploads/2017/04/Los-cuadros-como-un-gran-m%C3%A9todo-para-decorar-tu-casa.jpg
+
+- name: COJINES
+  slug: cojines
+  image: assets/images/products/c2.jpg
+
+- name: ADORNOS
+  slug: adornos
+  image: https://i.pinimg.com/originals/07/60/38/0760380ba647545fa2dac2b0b561d050.jpg
+
+- name: LAMPARAS
+  slug: lamparas
+  image: assets/images/products/l11.jpg

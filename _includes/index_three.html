@@ -1,0 +1,34 @@
+<section class="section-projects section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <h2 class="section-title">Últimos Projectos</h2>
+      </div>
+      <div class="col-lg-7">
+        <div class="filter-content">
+          <a href="/projects.html" class="view-projects">Ver todos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="project-carousel owl-carousel">
+
+    {% for post in site.posts %}
+    {% if post.categories contains 'projects' %}
+
+    <div class="project-item item-shadow building">
+      <img alt="" class="img-responsive" src="{{ post.main-image }}">
+      <div class="project-hover">
+        <div class="project-hover-content">
+          <h3 class="project-title">{{ post.title-line1 }}<br>{{ post.title-line2 }}<br>{{ post.title-line3 }}</h3>
+          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+        </div>
+      </div>
+      <a href="{{ post.permalink }}" class="link-arrow">Ver Projecto<i class="icon ion-ios-arrow-right"></i></a>
+    </div>
+
+    {% endif %}
+    {% endfor %}
+
+  </div>
+</section>

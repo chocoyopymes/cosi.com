@@ -1,0 +1,45 @@
+{% for post in site.posts %}
+{% if post.categories == page.categories %}
+{% if post.code == page.code %}
+{% else %}
+{% assign products = post %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% if products %}
+<section class="section-lg bg-white">
+  <div class="shell text-center">
+    <h4>Te pueden interesar</h4>
+    <!-- Owl Carousel-->
+    <div class="owl-carousel carousel-product" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4"
+         data-stage-padding="0" data-loop="false" data-margin="50" data-mouse-drag="false" data-nav="true">
+      {% for post in site.posts %}
+      {% if post.categories == page.categories %}
+      {% if post.code == page.code %}
+      {% else %}
+      <div class="item">
+        <div class="product product-grid">
+          <div class="product-img-wrap">
+            <a href="{{ site.url }}{{ post.url | relative_url }}">
+              <img src="{{ post.image }}" alt="{{ post.title }}" width="300" height="300"/>
+            </a>
+            <div class="product-label-wrap"><span></span></div>
+          </div>
+          <div class="product-caption">
+            <ul class="product-categories">
+              <li>{{ post.code }}</li>
+            </ul>
+            <h6 class="product-title">
+              <a href="{{ site.url }}{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h6>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

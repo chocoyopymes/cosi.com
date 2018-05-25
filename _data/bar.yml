@@ -1,0 +1,11 @@
+- name: SILLA BAR-COUNTER
+  slug: silla-bar-counter
+  image: /assets/images/categories/eei-1024-whi.jpg
+
+- name: MESA BAR-COUNTER
+  slug: mesa-bar-counter
+  image: /assets/images/categories/120341.jpg
+
+- name: BAR CART
+  slug: bar-cart
+  image: /assets/images/categories/100196.jpg

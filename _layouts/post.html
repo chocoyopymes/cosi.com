@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<main class="page-header">
+  <div class="container">
+    <h1>{{ page.title }}</h1></div>
+</main>
+
+<div class="content">
+  <div class="projects">
+    <div class="container">
+
+      <div class="col-md-6 col-sm-12">
+        <img src="{{ page.image }}" alt="imagen" class="img-responsive">
+      </div>
+
+      <div class="col-md-6 col-sm-12">
+        <ul class="project-detail-list text-dark">
+          <li>
+            <span class="left">Info</span>
+            <span class="right">{{ page.info1 }}</span>
+          </li>
+          <li>
+            <span class="left">Info</span>
+            <span class="right">{{ page.info2 }}</span>
+          </li>
+          <li>
+            <span class="left">Info</span>
+            <span class="right">{{ page.info3 }}</span>
+          </li>
+          <li>
+            <span class="left">Desc.</span>
+            <span class="right">{{ page.detail }}</span>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
