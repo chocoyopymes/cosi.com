@@ -261,7 +261,7 @@ function initialize() {
     + '      <span class="text">incognitotheme@gmail.com</span>'
     + '   </span>'
     + '</div>'
-    + '<p class="gmap-open"><a href="{{ site.url }}https://www.google.com/maps/@-37.824812,144.965981,14z?hl=ru-RU" target="_blank">Open on Google Maps</a></p></div>';
+    + '<p class="gmap-open"><a href="https://www.google.com/maps/@-37.824812,144.965981,14z?hl=ru-RU" target="_blank">Open on Google Maps</a></p></div>';
 
 
     var infowindow = new google.maps.InfoWindow({

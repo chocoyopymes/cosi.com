@@ -21,7 +21,7 @@
       <div class="item">
         <div class="product product-grid">
           <div class="product-img-wrap">
-            <a href="{{ site.url }}{{ post.url | relative_url }}">
+            <a href="{{ post.url | relative_url }}">
               <img src="{{ post.image }}" alt="{{ post.title }}" width="300" height="300"/>
             </a>
             <div class="product-label-wrap"><span></span></div>
@@ -31,7 +31,7 @@
               <li>{{ post.code }}</li>
             </ul>
             <h6 class="product-title">
-              <a href="{{ site.url }}{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </h6>
           </div>
         </div>

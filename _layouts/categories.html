@@ -6,7 +6,7 @@ layout: default
     <div class="breadcrumbs-custom__inner">
       <p class="breadcrumbs-custom__title">{{ page.title }}</p>
       <ul class="breadcrumbs-custom__path">
-        <li><a href="{{ site.url }}/">Inicio</a></li>
+        <li><a href="{{ site.url }}">Inicio</a></li>
         <li class="active">{{ page.title }}</li>
       </ul>
     </div>
@@ -22,7 +22,7 @@ layout: default
           </div>
           <div class="range range-xs-center range-70">
             {% for category in site.data[page.slug] %}
-            <a href="{{ site.url }}http://ekipainteriores.com/{{ page.slug }}/{{ category.slug }}/">
+            <a href="{{ site.url }}{{ page.slug }}/{{ category.slug }}/">
               <div class="cell-sm-6 cell-lg-4">
                 <div class="product product-grid">
                   <div class="product-img-wrap">
@@ -35,9 +35,9 @@ layout: default
                   </div>
                   <div class="product-caption">
                     <h6 class="product-title">
-                      <a href="{{ site.url }}http://ekipainteriores.com/{{ page.slug }}/{{ category.slug }}">{{ category.name }}</a>
+                      <a href="{{ site.url }}{{ page.slug }}/{{ category.slug }}">{{ category.name }}</a>
                     </h6>
-                    <a class="button-gray-base button button-icon button-icon-left" href="{{ site.url }}http://ekipainteriores.com/{{ page.slug }}/{{ category.slug }}">
+                    <a class="button-gray-base button button-icon button-icon-left" href="{{ site.url }}{{ page.slug }}/{{ category.slug }}">
                       <span>Ver productos</span>
                     </a>
                   </div>
@@ -55,7 +55,7 @@ layout: default
           <ul class="small list">
             {% for category in site.data[page.slug] %}
             <li>
-              <a href="{{ site.url }}http://ekipainteriores.com/{{ page.slug }}/{{ category.slug }}/">
+              <a href="{{ site.url }}{{ page.slug }}/{{ category.slug }}/">
                 {{ category.name }}
               </a>
             </li>
